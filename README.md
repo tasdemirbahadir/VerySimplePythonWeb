@@ -47,7 +47,7 @@ Important Note!: Check if the environment variable for the python scripts is set
 
 ## Testing
 
-* To run the test cases, go to the root folder of the project with cmd and thpe "nosetests". Because you have the python scripts folder path in your environment path variable, the system will recognize the command and run the created tests.
+* To run the test cases, go to the root folder of the project with cmd and type "nosetests". Because you have the python scripts folder path in your environment path variable, the system will recognize the command and run the created tests.
 
 ## Contributing
 
