@@ -30,6 +30,7 @@ Type "quit()" and hit enter to exit from Python.
 ## Built With
 
 * lpthw.web
+
 Before running the web application, you must install some additional modules (scripts) for python.
 
 * First, install "pip" Go to "https://pypi.python.org/pypi/pip", download file, unzip. Open a cmd with "run as administrator (otherwise the windows can block the installation)", change directory to the root of the downloaded file. Finally type "python setup.py install"
@@ -40,7 +41,7 @@ Important Note!: Check if the environment variable for the python scripts is set
 
 ## Run
 
-Go to the root folder of the downloaded project with cmd. Type "python bin/app.py". If you got some errors, start from the very beginning again and check if you made any steps wrong. Also you can mail me in the case of needing help. After running the project, open a web browser and type "http://localhost:8080/" then hit enter. You must see a web page written "I just wanted to say Hello World.".
+* Go to the root folder of the downloaded project with cmd. Type "python bin/app.py". If you got some errors, start from the very beginning again and check if you made any steps wrong. Also you can mail me in the case of needing help. After running the project, open a web browser and type "http://localhost:8080/" then hit enter. You must see a web page written "I just wanted to say Hello World.".
 
 ## Contributing
 
