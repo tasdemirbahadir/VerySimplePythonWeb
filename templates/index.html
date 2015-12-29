@@ -1,14 +1,18 @@
 $def with (greeting)
 
+$if greeting:
+	I just wanted to say <em style="color: green; fond-size: 2em;">$greeting</em>.
+$else:
+	<em>Hello</em>, world!
+<br/>
+<a href="/hello">Back</a>
+
 <html>
 	<head>
 		<title>Webproject</title>
 	</head>
 	<body>
-		$if greeting:
-			I just wanted to say <em style="color: green; fond-size: 2em;">$greeting</em>.
-		$else:
-			<em>Hello</em>, world!
+		
 	</body>
 </html>
 

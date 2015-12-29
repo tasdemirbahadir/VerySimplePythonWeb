@@ -1,6 +1,6 @@
 # VerySimplePythonWeb
 
-The simplest version of a Python Dynamic Web Project. After following the setup instructions, you can start from scratch if you want to make an introduction to Python Web Projects.
+The simplest & complete (with html layouts and test cases) version of a Python Dynamic Web Project. After following the setup instructions, you can start from scratch if you want to make an introduction to Python Web Projects.
 
 ## Getting Started
 
@@ -35,13 +35,19 @@ Before running the web application, you must install some additional modules (sc
 
 * First, install "pip" Go to "https://pypi.python.org/pypi/pip", download file, unzip. Open a cmd with "run as administrator (otherwise the windows can block the installation)", change directory to the root of the downloaded file. Finally type "python setup.py install"
 
-* Second, install "lpthw.web" Go to "https://pypi.python.org/pypi/lpthw.web", download file, unzip. Open a cmd with "run as administrator (otherwise the windows can block the installation)", change directory to the root of the downloaded file. Finally type "python setup.py install"
+* Second, install "nose" Go to "https://pypi.python.org/pypi/nose/", downloa file, unzip. Open a cmd with "run as administrator (otherwise the windows can block the installation)", change directory to the root of the downloaded file. Finally type "python setup.py install"
+
+* Third, install "lpthw.web" Go to "https://pypi.python.org/pypi/lpthw.web", download file, unzip. Open a cmd with "run as administrator (otherwise the windows can block the installation)", change directory to the root of the downloaded file. Finally type "python setup.py install"
 
 Important Note!: Check if the environment variable for the python scripts is set. Go My Computer-->Properties-->Advanced system settings-->Advanced-->Environment Variables At system variables, find variable 'PATH', check the value and add the python scripts path if does not exist. My path is "C:\Program Files\Python\Scripts".
 
 ## Run
 
 * Go to the root folder of the downloaded project with cmd. Type "python bin/app.py". If you got some errors, start from the very beginning again and check if you made any steps wrong. Also you can mail me in the case of needing help. After running the project, open a web browser and type "http://localhost:8080/" then hit enter. You must see a valid web page.
+
+## Testing
+
+* To run the test cases, go to the root folder of the project with cmd and thpe "nosetests". Because you have the python scripts folder path in your environment path variable, the system will recognize the command and run the created tests.
 
 ## Contributing
 
